@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/myimage"
+        android:layout_width="150dp"
+        tools:src="@mipmap/ic_launcher"
+        android:layout_height="150dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Nayeem Shiddiki Abir"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/mypost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Software Engineer (Mobile)"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
