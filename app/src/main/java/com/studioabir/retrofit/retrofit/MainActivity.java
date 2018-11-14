@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void getcall(View view) {
 
+        startActivity(new Intent(getApplicationContext(), MyGetActivity.class));
 
     }
 
     public void postcall(View view) {
 
-        startActivity(new Intent(getApplicationContext(), MyGetActivity.class));
+        startActivity(new Intent(getApplicationContext(), MyPostActivity.class));
 
     }
 }

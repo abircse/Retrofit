@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyGetActivity"></activity>
+        <activity android:name=".MyGetActivity" />
+        <activity android:name=".MyPostActivity"></activity>
     </application>
 
 </manifest>

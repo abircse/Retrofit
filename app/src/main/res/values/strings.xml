@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Retrofit</string>
+
+    <string-array name="classlist">
+
+
+        <item>six</item>
+        <item>seven</item>
+        <item>eight</item>
+        <item>nine</item>
+        <item>ten</item>
+
+
+
+    </string-array>
 </resources>
