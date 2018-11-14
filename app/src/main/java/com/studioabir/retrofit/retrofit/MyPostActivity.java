@@ -73,9 +73,11 @@ public class MyPostActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<student>> call, Response<List<student>> response) {
 
-                students = response.body();
-                adapter = new StudentAdapter(students,MyPostActivity.this);
-                recyclerView.setAdapter(adapter);
+
+                    students = response.body();
+                    adapter = new StudentAdapter(students,MyPostActivity.this);
+                    recyclerView.setAdapter(adapter);
+
 
             }
 
