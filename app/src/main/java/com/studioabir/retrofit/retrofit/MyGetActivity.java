@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
 
 
 import java.util.List;
@@ -43,6 +44,8 @@ public class MyGetActivity extends AppCompatActivity {
                 employees = response.body();
                 adapter = new EmployeeAdapter(employees,getApplicationContext());
                 recyclerView.setAdapter(adapter);
+                // if nedded to get specific object for set in text view use index no in get menthod like below
+                //Toast.makeText(MyGetActivity.this, "name is "+employees.get(1).getDesignation(), Toast.LENGTH_SHORT).show();
 
 
             }
